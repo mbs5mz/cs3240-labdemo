@@ -1,10 +1,8 @@
-def greeting(msg):
-    print(msg)
-
+from helper import Message
 
 def main():
     msg = input("Enter the message to print: ")
-    greeting(msg)
+    Message.greeting(msg)
 
 
 if __name__ == "__main__":

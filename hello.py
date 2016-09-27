@@ -1,7 +1,7 @@
 from helper import Message
 
 def main():
-    msg = input("Enter the message to print in develop: ")
+    msg = input("Enter the message to print now: ")
     Message.greeting(msg)
 
 
